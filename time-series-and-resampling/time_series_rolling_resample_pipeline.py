@@ -7,7 +7,6 @@ data = {
 }
 df = pd.DataFrame(data)
 
-# 2. Extract Day_Name (Dahil datetime object na agad si pd.date_range, pwede agad ang .dt)
 df['Day_Name'] = df['Date'].dt.day_name()
 
 df = df.set_index('Date')

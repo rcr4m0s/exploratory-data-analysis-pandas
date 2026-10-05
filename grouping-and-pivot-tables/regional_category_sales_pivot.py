@@ -7,7 +7,6 @@ data = {
 }
 df = pd.DataFrame(data)
 
-# Pivot Table with 'sum' and 'mean' aggregations
 pivot_df = pd.pivot_table(
     df, 
     values='Sales', 

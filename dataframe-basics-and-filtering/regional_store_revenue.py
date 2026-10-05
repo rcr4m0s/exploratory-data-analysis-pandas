@@ -1,6 +1,5 @@
 import pandas as pd
 
-# Data Dictionary
 data = {
     'Store_ID': ['S01', 'S02', 'S03', 'S04', 'S05'],
     'Region': ['Luzon', 'Visayas', 'Luzon', 'Mindanao', 'Visayas'],

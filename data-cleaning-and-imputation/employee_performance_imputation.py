@@ -1,7 +1,6 @@
 import pandas as pd
 import numpy as np
 
-# Sample dirty dataset with missing values (np.nan)
 data = {
     'Employee_ID': ['E01', 'E02', 'E03', 'E04', 'E05'],
     'Department': ['IT', 'HR', np.nan, 'IT', 'Finance'],

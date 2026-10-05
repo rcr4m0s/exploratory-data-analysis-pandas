@@ -1,14 +1,12 @@
 import pandas as pd
 import numpy as np
 
-# 1. Customer Profiles Dataset
 customers = pd.DataFrame({
     'CustomerID': ['C101', 'C102', 'C103', 'C104'],
     'Name': ['Alice', 'Bob', 'Charlie', 'David'],
     'Membership': ['Gold', 'Silver', 'Bronze', 'Gold']
 })
 
-# 2. Orders Dataset (May missing amounts & values)
 orders = pd.DataFrame({
     'OrderID': ['ORD01', 'ORD02', 'ORD03', 'ORD04', 'ORD05', 'ORD06'],
     'CustomerID': ['C101', 'C102', 'C101', 'C104', 'C103', 'C102'],

@@ -5,7 +5,6 @@ customers = pd.DataFrame({
     'Name': ['Alex', 'Bea', 'Charlie']
 })
 
-# Data 2: Transactions
 orders = pd.DataFrame({
     'OrderID': [101, 102, 103, 104],
     'CustomerID': ['C1', 'C2', 'C1', 'C3'],

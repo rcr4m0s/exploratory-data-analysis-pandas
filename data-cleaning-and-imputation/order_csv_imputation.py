@@ -1,7 +1,6 @@
 import numpy as np
 import pandas as pd
 
-# Setup raw data (Do not modify)
 raw_orders = {
     'Order_ID': [1, 2, 3, 4, 5, 6],
     'Region': ['North', 'South', 'North', 'South', 'North', 'South'],
